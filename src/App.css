@@ -7,6 +7,26 @@
   pointer-events: none;
 }
 
+.point {
+  position: 'absolute';
+  width: '10px';
+  height: '10px';
+  background: '#000000';
+}
+
+.button {
+  color: white;
+  margin: 5px;
+  font-weight: 600;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border-color: aliceblue;
+  background: teal;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
